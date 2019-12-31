@@ -9,6 +9,10 @@
 ## modified files
 * [examples/](examples) adds three file of finetuning result: last, train-thaw and class-avg_F1.
 
+## results 
+* after one epoch training, with the test data test_data.pkl we can get accuracy 0.24
+* after four epoch training, we can get accuracy 0.29
+
 
 
 
