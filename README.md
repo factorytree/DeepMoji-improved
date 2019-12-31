@@ -10,8 +10,9 @@
 * [examples/](examples) adds three file of finetuning result: last, train-thaw and class-avg_F1.
 
 ## results 
-* after one epoch training, with the test data test_data.pkl we can get accuracy 0.24
-* after four epoch training, we can get accuracy 0.29
+* after one epoch training we can get accuracy about 0.34, run the test.py with data test_data.pkl we can get accuracy 0.24
+* after four epoch training, we can get accuracy about 0.37, run the test.py with data test_data.pkl we can get accuracy 0.29
+* each epoch with GPU need about 14 hours
 
 ## Datasets and Models
 * all in SJTU jbox https://jbox.sjtu.edu.cn/l/3Jv9wv
