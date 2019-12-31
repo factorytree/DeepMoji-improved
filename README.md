@@ -13,6 +13,17 @@
 * after one epoch training, with the test data test_data.pkl we can get accuracy 0.24
 * after four epoch training, we can get accuracy 0.29
 
+## Datasets and Models
+* all in SJTU jbox https://jbox.sjtu.edu.cn/l/3Jv9wv
+* /data/emojitweets-01-04-2018.txt.zip is the original dataset 
+* /data/tweet_data_final.txt is the final dataset we used.
+* /data/test.pkl is the test data we used to test our models. 320,000 (700 * 64) tweets with labels.
+* /data/emoji_processed_final is the emojis we used to label.
+* /models/model_save_1.zip is the pretrained model we saved with one epoch training
+* /models/model_save.zip is the pretrained model we saved with four epoch training
+
+## how to test 
+* download the models and test data from the jbox, change the file path in Final_dataset/test.py and simply run it.
 
 
 
